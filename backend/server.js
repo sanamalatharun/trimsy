@@ -9,13 +9,10 @@ connectDB();
 const app = express();
 
 // Middleware
-const cors = require("cors");
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://trimtime.netlify.app"],
-    methods: ["GET", "POST"],
-    credentials: true,
+    origin: "*",
   }),
 );
 app.use(express.json());
