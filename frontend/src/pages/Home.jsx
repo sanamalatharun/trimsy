@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h1>Trim Time ✂️</h1>
+      <h1>Trimsy</h1>
 
       {/* SERVICES */}
       <div className="services">
